@@ -16,10 +16,7 @@ body {
     color: greenyellow;
      text-align: center;
       margin-top: 20px;
-      border: 2px white solid;
-       padding: 10px;
-        border-radius: 10px;
-        background-color: rgb(255, 255, 255, 0.10);
+
 }   
 
 #main-image {
@@ -29,14 +26,24 @@ body {
        box-shadow: 0 0 20px rgba(255, 0, 8, 0.5);
 }
 
-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #00ffff;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
+.favorites_button {
+    background-image: url("https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_5,w_750,f_auto/v1/classpop/blog/genres-of-photography_6780dbfbd5e47.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     width: 550px;
+    height: 420px;
+
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
     cursor: pointer;
+    border: none;
+
+    hover {
+    transform: scale(1.05);
+
+
+}
 }
