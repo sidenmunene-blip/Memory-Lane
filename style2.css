@@ -50,6 +50,22 @@ background-image:
       
 }
 
+body > .home-button {
+    grid-column: 1 / -1;
+    justify-self: start;
+    padding: 9px 18px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    color: skyblue;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+body > .home-button:hover {
+    background: skyblue;
+    color: black;
+}
+
 #cars_1{
     display: block;
      text-align: center;
