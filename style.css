@@ -1,73 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    min-height: 100vh;
     margin: 0;
-     min-height: 100vh;
-
-  background-color: black;  
-
- background-image: 
-     url("https://static.vecteezy.com/system/resources/previews/069/911/163/non_2x/vintage-black-textured-camera-with-a-weathered-lens-on-a-rustic-wooden-surface-free-photo.jpg");
-    max-width: 100%;
-     height: auto;
-    width: auto;
-    background-size: cover;
-}
-
-#welcome {
-    color: greenyellow;
-     text-align: center;
-      margin-top: 20px;
-
-}   
-
-#main-image {
-    display: block;
-     margin: 20px auto;
-      border-radius: 10px;
-       box-shadow: 0 0 20px rgba(255, 0, 8, 0.5);
-}
-
-.favorites_button {
-    background-image: url("https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_5,w_750,f_auto/v1/classpop/blog/genres-of-photography_6780dbfbd5e47.jpg") ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-     width: 550px;
-    height: 420px;
-
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-
-    cursor: pointer;
-    border: none;
-}
-
-.cars_button {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGN9cMrhtoK6_AyjN2YArz9CN0JI7W3dpGu0iBMopC6H8Stg0hRHdMIEk&s=10") ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-     width: 550px;
-    height: 420px;
-
-    color: red;
-    font-size: 20px;
-    font-weight: bold;
-
-    cursor: pointer;
-    border: none;
-}
-
-
-button {
-    background-color: transparent;
-    color: red;
-    text-decoration: italic;
-text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    background: #111;
+    color: #f4f1e8;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-button:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+main {
+    padding: 40px 20px;
+}
+
+h1 {
+    margin-bottom: 12px;
+    color: skyblue;
+    font-size: clamp(32px, 6vw, 52px);
+}
+
+main p {
+    margin-bottom: 32px;
+    color: #c5c5c5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    min-width: 150px;
+    padding: 13px 20px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    color: skyblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: skyblue;
+    color: #111;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: auto;
+    padding: 18px 24px;
+    border-top: 1px solid #333;
+    color: #aaa;
+    font-size: 13px;
+}
+
+footer a {
+    color: skyblue;
 }
