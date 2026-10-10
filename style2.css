@@ -97,3 +97,23 @@ figure img {
     border-radius: 10px;
 }
 
+body > footer {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+    color: skyblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+body > footer p {
+    margin: 0;
+}
+
+body > footer a {
+    color: skyblue;
+}
+
