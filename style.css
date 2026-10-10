@@ -40,10 +40,34 @@ body {
 
     cursor: pointer;
     border: none;
-
-    hover {
-    transform: scale(1.05);
-
-
 }
+
+.cars_button {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGN9cMrhtoK6_AyjN2YArz9CN0JI7W3dpGu0iBMopC6H8Stg0hRHdMIEk&s=10") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     width: 550px;
+    height: 420px;
+
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+    cursor: pointer;
+    border: none;
+}
+
+
+button {
+    background-color: transparent;
+    color: red;
+    text-decoration: italic;
+text-align: center;
+    justify-content: center;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }

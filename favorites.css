@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #101313;
+    color: #e9e7df;
+    font-family: Arial, sans-serif;
+}
+
+.page-header {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 72px 24px 42px;
+    text-align: center;
+}
+
+.eyebrow,
+.number {
+    color: #7bd6dc;
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 14px 0;
+    color: #f4f1e8;
+    font-family: Georgia, serif;
+    font-size: clamp(42px, 8vw, 76px);
+    font-weight: normal;
+}
+
+.intro {
+    max-width: 560px;
+    margin: 0 auto;
+    color: #b4b9b6;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+main {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: #202727;
+}
+
+.featured img {
+    max-height: 560px;
+    aspect-ratio: 16 / 8;
+}
+
+Figcaption {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    padding: 14px 0 0;
+    color: #c1c4bf;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.number {
+    flex: 0 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 52px 28px;
+    padding: 64px 0 80px;
+}
+
+.gallery img {
+    aspect-ratio: 4 / 3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 5%;
+    border-top: 1px solid #303737;
+    color: #9da5a2;
+    font-size: 12px;
+}
+
+footer a {
+    color: #7bd6dc;
+    text-decoration: none;
+}
+
+@media (max-width: 650px) {
+    .page-header {
+        padding-top: 54px;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 38px;
+        padding: 48px 0 60px;
+    }
+
+    .featured img {
+        aspect-ratio: 4 / 3;
+    }
+
+    figcaption {
+        display: block;
+    }
+
+    .number {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
