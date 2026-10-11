@@ -1,5 +1,7 @@
 # Memory Lane
 
+**Author:** Dennis Munene
+
 A photography website for memorable moments, favorite frames, and cars on the open road. Browse the galleries and explore each photograph through its caption.
 
 ## Pages
