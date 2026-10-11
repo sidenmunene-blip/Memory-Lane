@@ -50,9 +50,15 @@ background-image:
       
 }
 
-body > .home-button {
+body > .page-nav {
     grid-column: 1 / -1;
-    justify-self: start;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.page-nav a {
+    display: inline-block;
     padding: 9px 18px;
     border: 1px solid skyblue;
     border-radius: 4px;
@@ -61,7 +67,7 @@ body > .home-button {
     text-decoration: none;
 }
 
-body > .home-button:hover {
+.page-nav a:hover {
     background: skyblue;
     color: black;
 }

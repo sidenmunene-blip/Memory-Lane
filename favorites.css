@@ -21,9 +21,16 @@ body {
     text-align: center;
 }
 
-.home-button {
-    display: inline-block;
+.page-links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
     margin-bottom: 28px;
+}
+
+.home-button,
+.contact-button {
+    display: inline-block;
     padding: 9px 18px;
     border: 1px solid #7bd6dc;
     border-radius: 4px;
@@ -32,7 +39,8 @@ body {
     text-decoration: none;
 }
 
-.home-button:hover {
+.home-button:hover,
+.contact-button:hover {
     background: #7bd6dc;
     color: #101313;
 }
