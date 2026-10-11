@@ -24,8 +24,23 @@ Static HTML and CSS. No installation or build step is required.
 
 ## View the site
 
-Open `index.html` in a web browser to get started.
+### Setup
+
+1. Clone the repository from GitHub:
+
+   ```bash
+   git clone https://github.com/sidenmunene-blip/Memory-Lane.git
+   ```
+
+2. Open the `Memory-Lane` folder.
+3. Open `index.html` in a web browser.
+
+No dependencies, installation, or build step are required. An internet connection is needed to load the externally hosted photographs.
 
 ## Photos
 
 All photographs are hosted on external websites and load from those sources. An internet connection is required to view them.
+
+## License
+
+Copyright © 2026 Dennis Munene. All rights reserved. No permission is granted to copy, modify, or distribute the original project code without the author's prior consent. Externally hosted photographs are not covered by this notice and remain subject to their respective owners' rights and terms.
