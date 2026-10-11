@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section class="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Get in touch</h2>
+            <p>Have a question or want to talk photography? Send me a message.</p>
+
+            <form class="contact-form" action="https://formsubmit.co/sidenmunene@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="New message from Memory Lane">
+
+                <label for="contact-name">Name</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="80" required>
+
+                <label for="contact-email">Email</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="6" maxlength="3000" required></textarea>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+</body>
+</html>

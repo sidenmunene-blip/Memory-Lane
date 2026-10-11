@@ -15,6 +15,8 @@ body {
 }
 
 main {
+    width: min(100%, 760px);
+    margin: 0 auto;
     padding: 40px 20px;
 }
 
@@ -46,6 +48,78 @@ nav a {
 }
 
 nav a:hover {
+    background: skyblue;
+    color: #111;
+}
+
+.contact {
+    max-width: 520px;
+    margin: 52px auto 20px;
+    text-align: left;
+}
+
+.contact h2 {
+    margin-bottom: 8px;
+    color: skyblue;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact > p {
+    margin: 0 0 22px;
+    color: #c5c5c5;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact-form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form label {
+    margin-top: 8px;
+    color: #f4f1e8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #1b1b1b;
+    color: #f4f1e8;
+    font: inherit;
+}
+
+.contact-form textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: skyblue;
+    outline: 2px solid skyblue;
+    outline-offset: 2px;
+}
+
+.contact-form button {
+    justify-self: start;
+    margin-top: 8px;
+    padding: 12px 20px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    background: transparent;
+    color: skyblue;
+    font: inherit;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
     background: skyblue;
     color: #111;
 }
