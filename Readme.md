@@ -4,6 +4,8 @@
 
 A photography website for memorable moments, favorite frames, and cars on the open road. Browse the galleries and explore each photograph through its caption.
 
+**Live site:** [Memory Lane on GitHub Pages](https://sidenmunene-blip.github.io/Memory-Lane/)
+
 ## Pages
 
 - `index.html` — the landing page, with links to the galleries.
